@@ -1,0 +1,38 @@
+table {
+  background-color:#47a5a5;
+  width: 90%;
+  border-style: double;
+  position: relative;
+  left: 5%;
+}
+h1{
+  position:relative;
+  left: 45%;
+  font-family: sans-serif;
+  
+}
+
+th, td {
+  border: 2px solid black;
+  padding-left: 15px;
+  text-align: left;
+
+}
+
+th {
+  background-color: #557c8b;
+  font-weight: bold; /* Vastag betűstílus a <th> elemekhez */
+  font-size: 18px;
+}
+
+.ora {
+  display: none; /* Rejtjük az eredeti .ora elemeket */
+}
+
+
+tr.empty-row td {
+  border: 2px solid black; /* Vagy állítsa be a szükséges vonalakat */
+  height: 20px; /* Beállítja a sor magasságát az üres sorhoz */
+  font-weight: bold;
+  padding-left: 10px;
+}
